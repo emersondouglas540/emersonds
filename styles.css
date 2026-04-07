@@ -213,7 +213,7 @@ h1 {
 .photo-frame {
   position: absolute;
   inset: 0;
-  border: 2px solid rgba(219, 233, 21, 0.7);
+  border: 2px solid hwb(64 8% 9% / 0.7);
   border-radius: 32px;
   transform: rotate(-2deg);
   z-index: 0;
