@@ -213,7 +213,7 @@ h1 {
 .photo-frame {
   position: absolute;
   inset: 0;
-  border: 2px solid rgba(179, 139, 89, 0.7);
+  border: 2px solid rgba(219, 233, 21, 0.7);
   border-radius: 32px;
   transform: rotate(-2deg);
   z-index: 0;
@@ -225,6 +225,10 @@ h1 {
   box-shadow: 0 28px 80px rgba(0, 0, 0, 0.45);
   position: relative;
   z-index: 1;
+}
+.sua-classe-de-imagem {
+  /* Eixo X | Eixo Y | Desfoque | Cor da sombra */
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); 
 }
 
 .section-content {
